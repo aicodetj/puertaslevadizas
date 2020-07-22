@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOORTECX | ICA</title>
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/font1.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/slider_p.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+
+        <script src="js/jquery-2.1.0.min.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <link rel="icon" href="img/logo_PL.png">
+    </head>
+
+    <body>
+
+
+        <header class="main-header">
+            <div class="margen container--flex">
+                <div class="logo-container column--50">
+                    <a href="index.html"><img src="img/logo_PL.png" alt="" class="logo-container__img"></a>
+                    <a href="html" class="nombre_logo"><h1>DOORTECX</h1></a>
+                </div>
+                <div class="main-header__contacInfo column--50">
+                    <p class="main-header__contacInfo__address">
+                        <span class="icon-location">MZ-C LT3 Etapa 15 Los Portales | Ica</span>
+                    </p>
+                    <p class="main-header__contacInfo__phone">
+                        <span class="icon-phone">930126768</span>
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <div class="margen container--flex">
+                <span class="icon-menu" id="btnmenu"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">INICIO</a></li>
+                    <li class="menu__item"><a href="#nosotros" class="menu__link">NOSOTROS</a></li>
+                    <li class="menu__item"><a href="#productos" class="menu__link">SERVICIOS</a></li>
+                    <li class="menu__item"><a href="#contacto" class="menu__link">PROYECTOS</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/Puerta-Levadizas-Ica-Per%C3%B9-104489204660666/?epa=SEARCH_BOX" class="social-icon__link" target="_blank"><span class="icon-facebook"></span></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDnFcvdpVZcfNfLLpkCRTFzpkplHKHFdjVZmsmVVHjTDKwrWtfwGqqHNMfMDFsFjjdvgKqQ" class="social-icon__link" target="_blank"><span class="icon-mail"></span></a>
+                    <a class="appwhatsapp" href="https://api.whatsapp.com/send?phone=+51930126768&text=¡Hola!&nbsp;Cuál&nbsp;es&nbsp;el&nbsp;precio&nbsp;de" target="_blank"><span class="icon-whatsapp"></span></a>
+                    <a href="https://www.instagram.com/elreyjesus_ferreteria/" class="social-icon__link" target="_blank"><span class="icon-instagram"></span></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="slider_banner">
+            <div class="slider_content">
+                <div class="slider_text">
+                    <p>SIEMPRE OFRECIENDO SERVICIOS DE CALIDAD</p>
+                </div>
+                <ul class="slider">
+                    <li>
+                        <input type="radio" id="sbutton1" name="sradio" checked>
+                        <label for="sbutton1"></label>
+                        <img src="img/slide1_puerta_graraje.jpg" class="animated bounceInDown" alt="">
+
+                    </li>
+                    <li>
+                        <input type="radio" id="sbutton2" name="sradio">
+                        <label for="sbutton2"></label>
+                        <img src="img/slide2_puerta_entrada.jpg" alt="" class="animated jackInTheBox">
+                    </li>
+                    <li>
+                        <input type="radio" id="sbutton3" name="sradio">
+                        <label for="sbutton3"></label>
+                        <img src="img/slide3_puerta_vertical.jpg" alt="" class="animated flipInY">
+                    </li>
+                    <li>
+                        <input type="radio" id="sbutton4" name="sradio">
+                        <label for="sbutton4"></label>
+                        <img src="img/slide5_cercos_electricos.jpg" alt="" class="animated fadeInRightBig">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <main class="main">
+            <div class="main--group">
+                <section class="main-mensaje">
+                    <h2 class="main__title">MENSAJE</h2>
+                    <div class="margen mensaje">
+                        <p class="main__txt">Bienvenido a DOORTECX, En Donde Pordrás Hacer Realidad Tu Proyecto con Relación a Puertas Levadizas, Puertas Seccionales, Puertas Corredizas, Cercos Eléctricos y Más. Estaremos Listos para Usted,  Siempre Dispuestos en todo Momento.</p>
+                        <div class="pdf_padre">
+                            <a class="pdf" href="menu.pdf" target="_blank">Ver Más</a>
+                        </div>
+                        <a class="enlaces1" href="" name="nosotros"></a>
+                    </div>
+                </section>
+
+
+
+                <section class="nosotros">
+                    <div class="nosotros__txt">
+                        <h2 class="main__title">QUIENES SOMOS</h2>
+                        <p class="margen">En DOORTECX Somos Especialista en Fabricación, Instalación y Mantenimiento de Puertas Levadizas, Puertas Seccionales, Puertas Corredizas, Cercos Eléctricos, etc. Mis Más de 15 años de Experiencia en Disitntos Proyectos dan Crédito de La Calidad de Nuestros Servicios.</p> 
+                    </div>
+                    <div class="empresa">
+                        <div class="margen empresa_datos">
+                            <div class="empresa_flex">
+                                <div class="flex_datos">
+                                    <img src="img/vision.jpg" alt="">
+                                    <div class="datos_vmv">
+                                        <h3>Visión</h3>
+                                        <p>Mi Mayor Deseo es Extender mis Servicios a otras Ciudades del Perú y Ampliar Nuestra Cartera de Clientes, Queremos Brindarle a más personas los beneficios que tiene poder adquirir Nuestro Servicios.</p>
+                                    </div>
+                                </div>
+                                <div class="flex_datos">
+                                    <img src="img/mision.jpg" alt="">
+                                    <div class="datos_vmv">
+                                        <h3>Misión</h3>
+                                        <p>Que Nuestros Servicios y Productos Siempre sean de Calidad. Queremos que nuestros clientes estén completamente satisfechos con Nuestro Trabajo Realizado, Para así tener una Buena Imagen Hacia Nuestros Clientes.</p>
+                                    </div>
+                                </div>
+                                <div class="flex_datos">
+                                    <img src="img/valores.jpg" alt="">
+                                    <div class="datos_vmv">
+                                        <h3>Valores</h3>
+                                        <p>Nos Caracterizamos por Ser Responsables en Nuestro Trabajo, siempre Rápidos y Eficientes. Somos Honrados en el Precio de Nuestros Servicios o Productos, Honestos en todo momento. Ofrecemos Lo Mejor de Nosotros Para Nuestros Clientes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="enlaces2" href="" name="productos"></a>
+                    <img src="img/p_instalacion.JPG" alt="">
+                </section>
+
+
+
+                <section class="caja_productos">
+                    <h2 class="main__title">SERVICIOS:</h2>
+                    <div class="pg_flex">
+                        <div class="grupo_flex margen">
+
+                            <div class="modal1">
+<!--                                <input type="checkbox" id="btn-modal">-->
+                                <label for="btn-modal" class="btn-abrir">
+                                    <img src="img/p_cochera.jpg" alt="">
+                                    <p id="p">Puertas Levadizas</p>
+                                </label>
+                                <div class="fullmodal">
+                                    <div class="modal_container">
+
+                                        <div class="modal_encabezado">
+                                            <div class="modal__datos">
+                                                <h2>Herramientas y Accesorios Eléctricos</h2>
+                                                <label for="btn-modal">
+                                                    <div class="cerrar">
+                                                        <p>cerrar</p>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal_productos">
+                                            <div class="modal__flexp">
+                                                <div class="producto">
+                                                    <img src="img/foco_led.JPG" alt="">
+                                                    <p>descripción: <br> Focos LED para su Hogar</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/foco_led_7W.JPG" alt="">
+                                                    <p>descripción: <br> Focos de 3, 7 y 9 Watts</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/foco_ahorrador.JPG" alt="">
+                                                    <p>descripción: <br> Foco Ahorrador</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/foco_espiral.JPG" alt="">
+                                                    <p>descripción: <br> Foco en Espiral</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/bombillas_led.jpg" alt="">
+                                                    <p>descripción: <br> Bombilla LED</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/foco_plato_led.jpg" alt="">
+                                                    <p>descripción: <br> Foco en Forma de Plato</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/paflon_led.JPG" alt="">
+                                                    <p>descripción: <br> Paflon LED</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_termica.jpg" alt="">
+                                                    <p>descripción: <br> Llave Térmica de Luz</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tomacorriente1.jpg" alt="">
+                                                    <p>descripción: <br> tomacorrientes</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tomacorriente2.jpg" alt="">
+                                                    <p>descripción: <br> tomacorrientes</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/enchufes_luz.jpg" alt="">
+                                                    <p>descripción: <br> Enchufe Bipolar</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/enchufes1_luz.jpg" alt="">
+                                                    <p>descripción: <br> Enchufe Plano</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/adaptadores_luz.jpg" alt="">
+                                                    <p>descripción: <br> Adaptador Universal</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/adaptadores1_luz.jpg" alt="">
+                                                    <p>descripción: <br> Enchufe Triple</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/adaptadores_luz_raro.jpg" alt="">
+                                                    <p>descripción: <br> Enchufe PVC</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/interruptor_normal.jpg" alt="">
+                                                    <p>descripción: <br> Interruptor Simple</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/interruptor_mixto.jpg" alt="">
+                                                    <p>descripción: <br> Interruptor Mixto (con Enchufe)</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tomacorriente.jpg" alt="">
+                                                    <p>descripción: <br> tomacorrientes</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cinta_aislante.JPG" alt="">
+                                                    <p>descripción: <br> Cinta Aislantes (Varios Colores)</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/canaleta_luz.jpg" alt="">
+                                                    <p>descripción: <br> Canaleta de Luz sin Adhesivo</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/canaleta_luz_adhesivo.jpg" alt="">
+                                                    <p>descripción: <br> Canaleta de Luz con Adhesivo</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cable_luz_centelsa.jpg" alt="">
+                                                    <p>descripción: <br> Cable de Luz - Centelza</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cable_luz_indeco.jpg" alt="">
+                                                    <p>descripción: <br> Cable de Luz - Indeco</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cable_luz_vulcanizado.jpg" alt="">
+                                                    <p>descripción: <br> Cable Vulcanizado - Indeco</p>
+                                                </div> 
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal2">
+<!--                                <input type="checkbox" id="btn-modal2">-->
+                                <label for="btn-modal2" class="btn-abrir">
+                                    <img src="img/p_motor.jpg" alt="">
+                                    <p id="p">Puertas Seccionales</p>
+                                </label>
+                                <div class="fullmodal2">
+                                    <div class="modal_container2">
+
+                                        <div class="modal_encabezado">
+                                            <div class="modal__datos">
+                                                <h2>Herramientas y Accesorios de Grifería</h2>
+                                                <label for="btn-modal2">
+                                                    <div class="cerrar">
+                                                        <p>cerrar</p>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal_productos">
+                                            <div class="modal__flexp">
+                                                <div class="producto">
+                                                    <img src="img/ca%C3%B1o_jardin.JPG" alt="">
+                                                    <p>descripción: <br> Caño para Jardín</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_jardin.JPG" alt="">
+                                                    <p>descripción: <br> Llave para Jardín</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/ca%C3%B1o_lavatorio1.JPG" alt="">
+                                                    <p>descripción: <br> Caño para Lavatorio Cromado</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/ca%C3%B1o_lavatorio2.JPG" alt="">
+                                                    <p>descripción: <br> Caño para Lavatorio Acrílico</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/ca%C3%B1o_ganzo.JPG" alt="">
+                                                    <p>descripción: <br> Caño Cuello de Ganzo Cromado</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/ca%C3%B1o_ganzo_colores.JPG" alt="">
+                                                    <p>descripción: <br> Caño Cuello de Ganzo en Colores</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/sumidero.JPG" alt="">
+                                                    <p>descripción: <br> Sumidero</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/rejilla.JPG" alt="">
+                                                    <p>descripción: <br> Rejilla</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tubo_abasto_MEX.JPG" alt="">
+                                                    <p>descripción: <br> Tubo de Abasto Mexicano</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tubo_abasto_normal.JPG" alt="">
+                                                    <p>descripción: <br> Tubo de Abasto Standar</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/trampa1.jpg" alt="">
+                                                    <p>descripción: <br> Trampas PVC</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/trampa2.jpg" alt="">
+                                                    <p>descripción: <br> Trampas Blanca PVC</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/mangueras.JPG" alt="">
+                                                    <p>descripción: <br> Mangueras</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/manguera_indeco.JPG" alt="">
+                                                    <p>descripción: <br> Mangueras</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/valvula_paso.JPG" alt="">
+                                                    <p>descripción: <br> Válvula de Plástico</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/teflon.JPG" alt="">
+                                                    <p>descripción: <br> Teflon</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/pegamento_lata.JPG" alt="">
+                                                    <p>descripción: <br> Pegamento en Lata</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/superglue.JPG" alt="">
+                                                    <p>descripción: <br> Pegamento Superglue</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/codos_1.jpg" alt="">
+                                                    <p>descripción: <br> Codo 90°</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/codos_2.jpg" alt="">
+                                                    <p>descripción: <br> Codo TEE</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/codos_3.jpg" alt="">
+                                                    <p>descripción: <br> Codo Triple PVC</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/codos_4.jpg" alt="">
+                                                    <p>descripción: <br> Codo Largo PVC</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/salida_ducha_buzio.jpg" alt="">
+                                                    <p>descripción: <br> Ducha Buzio</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/salida_ducha_espa%C3%B1ola.jpg" alt="">
+                                                    <p>descripción: <br> Ducha Cromada</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/salida_ducha_frost.jpg" alt="">
+                                                    <p>descripción: <br> Ducha Frost</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/terma.jpeg" alt="">
+                                                    <p>descripción: <br> Terma Eléctrica</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_ducha_acr%C3%ADlica.JPG" alt="">
+                                                    <p>descripción: <br> Llave de Ducha Acrílica</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_ducha_cromada.JPG" alt="">
+                                                    <p>descripción: <br> Llave de Ducha Cromada</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tubos_agua.jpg" alt="">
+                                                    <p>descripción: <br> Tubos Delgados PVC</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tubos_aguaG.jpg" alt="">
+                                                    <p>descripción: <br> Tubos Gruesos PVC</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tubos_desague.jpg" alt="">
+                                                    <p>descripción: <br> Tubos de Desague</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal3">
+<!--                                <input type="checkbox" id="btn-modal3">-->
+                                <label for="btn-modal3" class="btn-abrir">
+                                    <img src="img/p_corrediza.jpg" alt="">
+                                    <p id="p">Puertas Corredizas</p>
+                                </label>
+                                <div class="fullmodal3">
+                                    <div class="modal_container3">
+
+                                        <div class="modal_encabezado">
+                                            <div class="modal__datos">
+                                                <h2>Productos de Limpieza y Accesorios del Hogar</h2>
+                                                <label for="btn-modal3">
+                                                    <div class="cerrar">
+                                                        <p>cerrar</p>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal_productos">
+                                            <div class="modal__flexp">
+                                                <div class="producto">
+                                                    <img src="img/cera_tekno.jpg" alt="">
+                                                    <p>descripción: <br> Cera en Pasta Tekno</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cera_sapolio.jpg" alt="">
+                                                    <p>descripción: <br> Cera en Pasta Sapolio</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/quitagrasa_musculo.jpg" alt="">
+                                                    <p>descripción: <br> Quitagrasa Mr. Músculo</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/quitagrasa.jpg" alt="">
+                                                    <p>descripción: <br> Quitagrasa CIF</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/limpiatodo_dkasa.jpg" alt="">
+                                                    <p>descripción: <br> Limpiatodo Dkasa- 1L</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/acido_sapolio.jpg" alt="">
+                                                    <p>descripción: <br> Ácido Sapolio</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/lejia.jpg" alt="">
+                                                    <p>descripción: <br> Lejía Clorox</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/lejia_sapolio.jpg" alt="">
+                                                    <p>descripción: <br> Lejía Sapolio</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/guantes_virutex.JPG" alt="">
+                                                    <p>descripción: <br> Guantes Virutex</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/limpieza.jpg" alt="">
+                                                    <p>descripción: <br> Desinfectantes</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/multifusion.jpeg" alt="">
+                                                    <p>descripción: <br> Desinfectante Multifución</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/licuadora_base.jpeg" alt="">
+                                                    <p>descripción: <br> Rosca de Licuadora Oster</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/licuadora_cuchilla.jpeg" alt="">
+                                                    <p>descripción: <br> Base de Licuadora Oster</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/licuadora_cuchilla1.jpeg" alt="">
+                                                    <p>descripción: <br> Cuchilla de Licuadora Oster</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_gas.jpeg" alt="">
+                                                    <p>descripción: <br> Regulador de Gas TECSOL</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_gas1.jpeg" alt="">
+                                                    <p>descripción: <br> Regulador de Gas SURGE</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal4">
+<!--                                <input type="checkbox" id="btn-modal4">-->
+                                <label for="btn-modal4" class="btn-abrir">
+                                    <img src="img/ce_madera.jpg" alt="">
+                                    <a class="enlaces3" href="" name="contacto"></a>
+                                    <p id="p">Cercos Eléctricos</p>
+                                </label>
+                                <div class="fullmodal4">
+                                    <div class="modal_container4">
+
+                                        <div class="modal_encabezado">
+                                            <div class="modal__datos">
+                                                <h2>Herramientas Manuales</h2>
+                                                <label for="btn-modal4">
+                                                    <div class="cerrar">
+                                                        <p>cerrar</p>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal_productos">
+                                            <div class="modal__flexp">
+                                                <div class="producto">
+                                                    <img src="img/alicate_barato.JPG" alt="">
+                                                    <p>descripción: <br> Alicate Plástico</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/alicate_normal.JPG" alt="">
+                                                    <p>descripción: <br> Alicate Fibra</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/alicate_alpha6.JPG" alt="">
+                                                    <p>descripción: <br> Alicate Alpha 6</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/alicate_puntiagudo.JPG" alt="">
+                                                    <p>descripción: <br> Alicate en Puntas Alpha 6</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_mixta.JPG" alt="">
+                                                    <p>descripción: <br> Llave Mixta</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_francesa.JPG" alt="">
+                                                    <p>descripción: <br> Llave Francesa</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_T.JPG" alt="">
+                                                    <p>descripción: <br> Llave forma de T</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_Y.JPG" alt="">
+                                                    <p>descripción: <br> Llave forma de Y</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/llave_chuck.JPG" alt="">
+                                                    <p>descripción: <br> Llave Chuck</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/fondo-herramientas.jpg" alt="">
+                                                    <p>descripción: <br> Juegos de Llaves</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cerradura_hipocampo.JPG" alt="">
+                                                    <p>descripción: <br> Cerradura Hipocampo</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cerradura_vitrina.JPG" alt="">
+                                                    <p>descripción: <br> Cerradura Vitrina</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/cerrojos.JPG" alt="">
+                                                    <p>descripción: <br> Cerrojos</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/perilla_cremado.JPG" alt="">
+                                                    <p>descripción: <br> Perillas y Chapas</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/lapiz_carpintero.JPG" alt="">
+                                                    <p>descripción: <br> Lápiz de Carpintero</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tornillos.JPG" alt="">
+                                                    <p>descripción: <br> Tornillos (VArios Modelos)</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/desarmador.JPG" alt="">
+                                                    <p>descripción: <br> Desarmador de Plástico</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/fondo-herramienta1.jpg" alt="">
+                                                    <p>descripción: <br> Desarmador de Fibra</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/escuadra.JPG" alt="">
+                                                    <p>descripción: <br> Escuadra</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/nivel_manos.JPG" alt="">
+                                                    <p>descripción: <br> Nivel de Manos</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/guantes_anticorte.JPG" alt="">
+                                                    <p>descripción: <br> Guantes Anticorte</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/wincha_5eM.JPG" alt="">
+                                                    <p>descripción: <br> Wincha 5M (económica)</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/wincha_5M.JPG" alt="">
+                                                    <p>descripción: <br> Wincha 5M (Stándar)</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/wincha_pro.JPG" alt="">
+                                                    <p>descripción: <br> Wincha 3M (Fibra)</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/wincha_lona.JPG" alt="">
+                                                    <p>descripción: <br> Wincha de lona</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/comba.JPG" alt="">
+                                                    <p>descripción: <br> Comba de Madera</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/martillo_madera.JPG" alt="">
+                                                    <p>descripción: <br> Martillo de Madera</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/martillo_fibra.JPG" alt="">
+                                                    <p>descripción: <br> Martillo de Fibra</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/clavos.jpg" alt="">
+                                                    <p>descripción: <br> Clavos para Madera y Cemento</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/tarugos.JPG" alt="">
+                                                    <p>descripción: <br> Tarugos</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/sierra_B.JPG" alt="">
+                                                    <p>descripción: <br> Sierra Stándar</p>
+                                                </div>
+                                                <div class="producto">
+                                                    <img src="img/sierra_Alpha.JPG" alt="">
+                                                    <p>descripción: <br> Sierra Alpha</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section class="proyectos">
+                    <h2 class="main__title"><a href="" name="proyectos"></a>PROYECTOS:</h2>
+                    <div class="proyectos_galery margen">
+                        <div class="galery_container">
+
+                            <div class="galery">
+                                <div class="img_galery">
+                                    <img src="img/p_control_persona.jpg" alt="">
+                                </div>
+                                <div class="img_galery">
+                                    <img src="img/p_instalacion1.JPG" alt="">
+                                </div>
+                                <div class="img_galery">
+                                    <img src="img/p_motor.jpg" alt="">
+                                </div>
+                                <div class="img_galery">
+                                    <img src="img/p_uso_persona1.jpg" alt="">
+                                </div>
+                                <div class="img_galery">
+                                    <img src="img/p_sistema_completo.jpg" alt="">
+                                </div>
+                                <div class="img_galery">
+                                    <img src="img/ce_madera1.jpg" alt="">
+                                </div>
+                                <div class="img_galery">
+                                    <img src="img/ce_madera.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="relleno">
+
+                            <div class="relleno_container">
+                                <p>Realizanos Nuestros Trabajos con Responsabilidad, Compromiso y Honestidad. Le Dejamos una Muestra de Nuestros Trabajos.</p>
+                                <p class="rp">(Deslice el dedo sobre la imagen)</p>
+                            </div>
+                        </div>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(img/p_seccional.jpeg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/p_control_persona.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/p_metal.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/p_muestra.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/p_sistema_completo.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/p_uso_persona.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/p_uso_persona1.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/ce_madera1.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/ce_madera.jpg)"></div>
+                                <div class="swiper-slide" style="background-image:url(img/p_motor.jpg)"></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <script src="js/swiper.min.js"></script>
+
+                <section>
+                    <div class="contacto">
+                        <h2 class="main__title">CONTÁCTENOS</h2>
+                        <div class="contacto_mapadatos">
+                            <div class="margen contacto_datos">
+                                <div class="margen datos">
+                                    <div class="d_horarios">
+                                        <span class="icon-clock"></span>
+                                        <p>Trabajamos Todos los Días En Horario de Cuarentena</p>
+                                    </div>
+                                    <div class="d_telefono">
+                                        <span class="icon-phone"></span>
+                                        <p>Comuníquese al 930126768, Atendemos Tu Llamado</p>
+                                    </div>
+                                    <div class="d_ubicacion">
+                                        <span class="icon-location"></span>
+                                        <p>MZ-C LT3 Etapa 15 Los Portales | Ica</p>
+                                    </div>
+                                </div>
+                                <div class="margen mail_flex">
+                                    <form action="mail.php" method="post" class="formulario">
+                                        <label for="" class="formulario__label">NOMBRE:</label>
+                                        <input type="text" class="formulario__input__txt" name="nombre">
+
+                                        <label for="" class="formulario__label">CORREO:</label>
+                                        <input type="text" class="formulario__input__txt" name="correo">
+
+                                        <label for="" class="formulario__label">TELÉFONO:</label>
+                                        <input type="text" class="formulario__input__txt" name="telefono">
+
+                                        <label for="" class="formulario__label">MENSAJE:</label>
+                                        <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                                        <div class="boton">
+                                            <input type="submit" class="formulario__btn">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="d_cuentas">
+                                <h3>CUENTAS DE PAGO:</h3>
+                                <div class="d_container">
+                                    <div class="cuentas_container margen">
+
+                                        <div class="agentes">
+                                            <img src="img/interbank.png" alt="">
+                                            <p>INTERBANK cuenta: <br> 4063048218700</p>
+                                        </div>
+                                        <div class="agentes">
+                                            <img src="img/scotiabank.png" alt="">
+                                            <p>Scotiabank cuenta: <br> 412-0001591</p>
+                                        </div>
+                                        <div class="agentes">
+                                            <img src="img/bbva.png" alt="">
+                                            <p>BBVA cuenta: <br> 0011-0814-0207765118</p>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mapa">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10944.76474463277!2d-75.74200968058352!3d-14.103209349446022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1595390939223!5m2!1ses!2spe" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mapa__hijo"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <h2 class="margen column__title">Síguenos en:</h2>
+            <div class="margen footer_flex">
+                <div class="footer_icon">
+                    <span><a href="https://www.facebook.com/Puerta-Levadizas-Ica-Per%C3%B9-104489204660666/?epa=SEARCH_BOX" class="icon-facebook" target="_blank"></a></span>
+                    <span><a href="https://www.instagram.com/elreyjesus_ferreteria/" class="icon-instagram" target="_blank"></a></span>
+                    <span><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDnFcvdpVZcfNfLLpkCRTFzpkplHKHFdjVZmsmVVHjTDKwrWtfwGqqHNMfMDFsFjjdvgKqQ" class="icon-mail" target="_blank"></a></span>
+                    <a class="appwhatsapp" href="https://api.whatsapp.com/send?phone=+51930126768&text=¡Hola!&nbsp;Cuál&nbsp;es&nbsp;el&nbsp;precio&nbsp;de" target="_blank"><span class="icon-whatsapp"></span></a>
+                </div>
+                <div class="footer_datos">
+                    <p>fullservic1580@gmail.com</p>
+                    <p>930126768</p>
+                </div>
+            </div>
+            <div class="copy"><p class="margen">© 2020 Puertas Levadizas, Ica - Peru 2020 | Todos los Derechos Reservados</p></div>
+        </footer>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows : true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+
+        <script>
+            (function($){
+                $(window).on("load",function(){
+                    $(".modal_productos").mCustomScrollbar({
+                        theme:"rounded",
+                        scrollButtons:{ enable: true }
+                    });
+                });
+            })(jQuery);
+        </script>
+
+        <script src="js/menu.js"></script>
+
+    </body>
+</html>
