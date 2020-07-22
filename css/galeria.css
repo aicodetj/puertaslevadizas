@@ -1,0 +1,134 @@
+.proyectos_galery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.galery_container {
+    width: 90%;
+    display: none;
+}
+
+.galery {
+    width: 1400;
+}
+
+.img_galery {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.img_galery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.proyectos {
+    background: green;
+}
+
+
+.proyectos_galery .swiper-container {
+    padding-top: 20px;
+    background: red;
+    width: 100%;
+}
+
+
+.galery_container .swiper-wrapper {
+    margin-left: -50px;
+}
+
+
+.galery_container .margen {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,256 @@
+.nosotros__txt {
+    background: #F66900;
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nosotros__txt h2 {
+    color: white;
+}
+
+.nosotros__txt p {
+    text-align: justify;
+    color: white;
+    font-size: 16px;
+    font-family: 'Ubuntu Mono';
+    line-height: 1.6em;
+
+    margin: 0px;
+}
+
+.empresa {
+    padding-top: 20px;
+}
+
+.empresa_datos {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.empresa_datos p {
+    text-align: justify;
+    color: #222222;
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 1.35em;
+    font-family: 'Ubuntu Mono';
+    line-height: 1.6em;
+}
+
+.nosotros img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.flex_datos {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.flex_datos img {
+    width: 75px;
+    height: 75px;
+}
+
+.flex_datos .datos_vmv {
+    line-height: 1.7;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.datos_vmv h3 {
+    font-size: 28px;
+    font-family: 'Made-Bold';
+    color: #26336B;
+}
+
+.caja_productos {
+    color: white;
+    background: #F66900;
+}
+
+.caja_productos h2 {
+    color: white;
+}
+
+.grupo_flex {
+
+}
+
+@media screen and (min-width: 480px) {
+    .nosotros__txt p {
+        font-size: 18px;
+        line-height: 1.6em;
+
+        margin: 0px;
+    }
+
+    .empresa_datos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .empresa_datos p {
+        text-align: justify;
+        line-height: 1.6em;
+    }
+
+    .flex_datos {
+        display: flex;
+    }
+
+    .flex_datos img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .flex_datos .datos_vmv {
+        padding-left: 40px;
+        padding-top: 5px;
+        margin: 0px;
+    }
+
+    .caja_productos {
+        color: white;
+        text-align: center;
+
+        padding: 15px 0px;
+        padding-bottom: 0px;
+    }
+
+    .caja_productos h2{
+        margin-bottom: 10px;
+    }
+
+    .grupo_flex {
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .nosotros img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .nosotros__txt p {
+        font-size: 22px;
+        line-height: 1.6em;
+
+        margin: 0px;
+    }
+
+    .empresa_datos p {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.6em;
+    }
+
+    .flex_datos img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .grupo_flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .nosotros__txt p {
+        font-size: 21px;
+        line-height: 2em;
+
+        margin: 0px;
+    }
+
+    .nosotros img {
+        height: 500px;
+    }
+
+    .empresa_flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .empresa_flex .flex_datos {
+        width: 32%;
+        margin-bottom: 30px;
+    }
+
+    .flex_datos .datos_vmv {
+        padding-left: 20px;
+    }
+
+    .flex_datos img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .empresa_datos p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.6em;
+    }
+
+    .empresa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .caja_productos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+
+    .empresa_datos p {
+        text-align: justify;
+        color: #3D6368;
+        font-size: 14px;
+        line-height: 2em;
+    }
+
+    .datos_vmv {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .nosotros__txt p {
+        font-size: 24px;
+    }
+
+    .nosotros img {
+        height: 500px;
+    }
+
+    .flex_datos img {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    .empresa_datos p {
+        font-size: 18px;
+        line-height: 2em;
+    }
+}
